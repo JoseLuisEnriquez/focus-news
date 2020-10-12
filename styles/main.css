@@ -14,27 +14,50 @@
     width: 35%;
     height: 125px;
     text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bolder;
+    display:inline-block;
+}
+
+#no-logo{
+    display:inline-block;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    top: 50px;
+    right: 250px;
+    font-weight: bold;
+    font-size:25px;
 }
 
 #first-title{
     background-color: black;
     color: white;
-    width: 100%;
+    width: 1035px;
     height: 500px;
     margin-right: 0;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 #for-span-title{
     background-color: black;
     color:blueviolet;
     text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mintext{
+    font-size:15px;
+    font-weight: bold;
 }
 
 .principal-center{
     margin-left: 12%;
     width: 78%;
     background: white;
-    padding-right: 15%;
 }
 
 .p-img{
@@ -47,7 +70,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #navbar{
-    background-color:violet;
+    background-color: #a9689e;
     height: 40px;
 }
 
@@ -55,6 +78,8 @@
     list-style-type: none;
     margin:3%;
     padding:0;
+    overflow: hidden;
+    height: 40px;
 }
 
 #navbar li{
@@ -63,13 +88,55 @@
     padding-top: 1%;
     color: white;
     font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 6.5%;
+}
+
+#navbar li a{
+    display:block;
+    color:white;
+
+}
+
+#navbar li a:hover{
+    border-bottom-width: 5px;
+    padding-bottom: 7px;
+    color: #fff;
+}
+
+#art-title{
+    font-size:30px;
+    background-color: #a9689e;
+    color:white;
     text-align: center;
-    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.art-p{
+    background-color: #F6C0ED;
+    text-align: justify;
+}
+
+#division{
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-gap:40px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+#art-p-esp{
+    font-weight: bold;
+    margin-top: 0;
 }
 
 .foot{
-    width: :100%;
-    height: 800px;
+    width: 100%;
+    height: 300px;
     background-color: #2c2d2f;
     color: white;
     padding-left: 12%;
@@ -79,10 +146,178 @@
 .left{
     display:inline-block;
     width:19%;
+    vertical-align: top;
 }
 
 .right{
     display:inline-block;
     width:80%;
     padding-left:20px;
+}
+
+#ul-right{
+    list-style-type: none;
+}
+
+#ul-right li{
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 1%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+#ul-right a{
+    color:white;
+}
+
+#ul-right a:hover{
+    color:red;
+}
+
+#ul-left{
+    list-style-type: none;
+}
+
+#ul-left li{
+    display: inline-block;
+    padding-left:3%;
+    padding-top: 1%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+#ul-left a{
+    color:white;
+}
+
+#ul-left a:hover{
+    color:red;
+}
+
+.separator{
+    border-left: solid 0.5px;
+    border-color: white;
+    vertical-align: middle;
+}
+
+.container{
+    display:inline-block;
+    width:75%;
+}
+
+.sidebar{
+    display:inline-block;
+    width:24%;
+    vertical-align: top;
+    margin-top: 7px;
+    text-align: center;
+    border: solid 1px;
+}
+
+.ul-side{
+    list-style-type: none;
+}
+
+.li-side{
+    border-bottom: solid 0.5px;
+    border-color: lightgray;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+.side-img{
+    width:100px;
+    height: 80px;
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.side-span{
+    font-weight: bold;
+    color:violet;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.side-p{
+    display:inline-block;
+    text-align: justify;
+    width: 30%;
+    vertical-align: top;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.links-nocolor:hover{
+    color: black;
+}
+
+.letter-bold{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.border-word{
+    border-style: solid;
+    margin: 25px;
+    padding: 10px;
+    border-width: 1px;
+}
+
+#comment-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#comments-area{
+    width: 100%;
+    height: 100px;
+}
+
+video{
+    width:100%;
+    height: 325px;
+}
+
+.p-foot{
+    font-size: 10px;
+}
+
+.img-link{
+    width: 42px;
+    height: 42px;
+    margin-left: 5px;
+}
+
+#other-text{
+    color:gray;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.p-video{
+    background-color: black;
+    color:white;
+    margin:0;
+    font-weight: bold;
+    font-size: 25px;
 }
